@@ -129,7 +129,7 @@ public class Product  implements IProduct, Comparable<Product> {
 //        sc.next();
 
         //Nhap tinh trang san pham:
-        System.out.println("Nhap trang thai san pham:");
+        System.out.println("Nhap trang thai san pham (true/false):");
         this.productStatus=sc.nextBoolean();
 
         //Tinh loi nhuan:

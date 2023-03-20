@@ -15,8 +15,6 @@ public class ProductManagement {
         boolean cont = true;
         int choice;
         Scanner sc = new Scanner(System.in);
-
-
         do {
             System.out.println("****************JAVA-HACKATHON-05-BASIC-MENU***************\n" +
                     "1. Nhập số sản phẩm và nhập thông tin sản phẩm \n" +
@@ -88,6 +86,7 @@ public class ProductManagement {
                     }
                     break;
                 case 7:
+                    System.out.println("Tam biet");
                     cont = false;
             }
 
