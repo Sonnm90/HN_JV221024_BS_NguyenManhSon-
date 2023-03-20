@@ -43,20 +43,16 @@ public class ProductManagement {
                     }
                     break;
                 case 3:
-                    System.out.println("Mang truoc khi sap xep tang dan loi nhuan: "+products);
                     Collections.sort(products);
-                    System.out.println("Mang sau khi sap xep tang dan loi nhuan: "+products);
                     break;
                 case 4:
                     System.out.println("Nhap ma san pham can xoa:");
                     int removeId= sc.nextInt();
-                    System.out.println("Mang truoc khi xoa: "+products);
                     for (int i = 0; i < products.size(); i++) {
                        if(products.get(i).getProductId()==removeId){
                            products.remove(i);
                        }
                     }
-                    System.out.println("Mang sau khi xoa: "+products);
                     break;
                 case 5:
                     sc.nextLine();
