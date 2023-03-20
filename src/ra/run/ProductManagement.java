@@ -45,8 +45,8 @@ public class ProductManagement {
                     }
                     break;
                 case 3:
+                    System.out.println("Mang truoc khi sap xep tang dan loi nhuan: "+products);
                     Collections.sort(products);
-//
                     System.out.println("Mang sau khi sap xep tang dan loi nhuan: "+products);
                     break;
                 case 4:
